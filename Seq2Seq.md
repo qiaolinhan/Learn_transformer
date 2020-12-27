@@ -9,4 +9,4 @@ $$ \textit{Attention}(Q, K, V) = \textit{softmax}(\frac{QK^T}{\sqrt{d_k}})V $$
 where $Q$ is a matrix contains the query (vector represent one word in a sequecne); $K$ are all the keys (vector represents all the words in a sequence); $V$ are the values.  
 The values in $V$ are numtiplied and summed with some attention-weights $a$, which are defined by:
 $$a = \textit{softmax}(\frac{QK^T}{\sqrt{d_k}})$$
-This means that 
+This means that $a$ is defined by how each words of sequence is influenced by all other words in the sequence  
