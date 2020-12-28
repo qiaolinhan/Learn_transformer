@@ -12,5 +12,5 @@ Soft attention: The constraint is that the summation of these elements all by $\
 $$\Vert a \vert_1 = 1$$  
 
 ## Self Attention II
-$$a = [soft] (arg)max_{\beta} (X^{top}x) \in \textrm{R}^t$$
+$$a = [soft] (arg)max_{\beta} (X^{\top}x) \in \textrm{R}^t$$
 where $\beta$ is the parameterfor the soft arg max
