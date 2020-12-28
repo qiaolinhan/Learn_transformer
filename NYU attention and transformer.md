@@ -14,4 +14,11 @@ $$\Vert a \vert_1 = 1$$
 ## Self Attention II
 $$a = [soft] (arg)max_{\beta} (X^{\top}x) \in \textrm{R}^t$$
 where $\beta$ is the parameterfor the soft arg max
-$$\lbrace x_i \rbrace^t_{i=1} \mapsto \lbrace a_i \rbrace^t_{i=1} \mapsto A \in \textrm{R}^{t \times t}$$
+$$\lbrace x_i \rbrace^t_{i=1} \mapsto \lbrace a_i \rbrace^t_{i=1} \mapsto A \in \textrm{R}^{t \times t}$$  
+
+## K-value Store  
+About the data structure
+* Paradigm for 
+  * storing (saving) 
+  * retriving (querying)
+  * managing
