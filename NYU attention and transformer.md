@@ -1,5 +1,5 @@
 # [Practicum: Attention and Transformer](https://www.youtube.com/watch?v=f01J0Dri-6k)
-> NYU spring 2020
+> NYU spring 2020  
 Attention (self/ cross; hard/ soft) -- dealing with sets (transformers are maps of sets to sets)
 __They do not really deal with Seq2Seq, they can be write as order set, but do not nessessarily need to have order sequences__  
 ## Self Attention I
@@ -12,5 +12,5 @@ Soft attention: The constraint is that the summation of these elements all by $\
 $$\Vert a \vert_1 = 1$$  
 
 ## Self Attention II
-$$a = [soft](arg)max_{\beta} (X^{top}x) \in \textrm{R}^t$$
+$$a = [soft] (arg)max_{\beta} (X^{top}x) \in \textrm{R}^t$$
 where $\beta$ is the parameterfor the soft arg max
