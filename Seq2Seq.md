@@ -16,6 +16,5 @@ Feed-forward network has identical parameters for each position, which can be de
 
 # Training
 Training and inferring on Seq2Seq is different from usual classification problem.  
-- [] `EX` A model for translation: two scentences in different languages that are translations of each other. The Decoder input will be shifted to the right by one position.  
-
+- `EX` A model for translation: two scentences in different languages that are translations of each other. The Decoder input will be shifted to the right by one position.  
 
