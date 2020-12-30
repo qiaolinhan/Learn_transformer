@@ -27,3 +27,8 @@ Keys: could be a title of the video or the description.(Then rerieve all those c
 Values: $v = W_v x$  
 * The attention things do not add any nonlinearlarities becasue: it is completely based on orientation.
 * Q and K have to have the same length: $q, k \in \textrm{R}^{d^{'}}$. You are going to check one query (one question) against all possible representation of the title; V is the content of our recipe, which we do not care about its length $v \in \textrm{R}^{d^{''}}$.  
+$$\lbrace x_i\rbrace ^t_{i=1} \mapsto \lbrace q_i \rbrace ^t_{i=1}, \lbrace k_i\rbrace ^t_{i=1}, \lbrace v_i \rbrace ^t_{i=1}, if d^{'}=d^{''}=d \mapsto Q, K, V \in \textrm{R}^{d\times t}$$
+$$a = [soft] (arg)max_{\beta} (X^{\top}x) \in \textrm{R}^t$$
+$$h = Va \in \textrm{R}^d$$
+$$\lbrace q_i \rbrace ^t_{i=1} \mapsto \lbrace a_i \rbrace ^t_{i=1} \mapsto A \in \textrm{R}^{t \times t}$$
+
