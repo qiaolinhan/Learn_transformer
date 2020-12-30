@@ -22,3 +22,8 @@ About the data structure
   * storing (saving) 
   * retriving (querying)
   * managing
+Query：checking all possible keys in your data set.（Lasagna）$q = W_q x$  
+Keys: could be a title of the video or the description.(Then rerieve all those contents) $k = W_k x$  
+Values: $v = W_v x$  
+* The attention things do not add any nonlinearlarities becasue: it is completely based on orientation.
+* Q and K have to have the same length: $q, k \in \textrm{R}^{d^'}$. You are going to check one query (one question) against all possible representation of the title; V is the content of our recipe, which we do not care about its length $v \in \textrm{R}^{d^{''}}$.  
