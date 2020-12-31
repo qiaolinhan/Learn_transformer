@@ -31,4 +31,6 @@ $$\lbrace x_i\rbrace ^t_{i=1} \mapsto \lbrace q_i \rbrace ^t_{i=1}, \lbrace k_i\
 $$a = [soft] (arg)max_{\beta} (X^{\top}x) \in \textrm{R}^t$$
 $$h = Va \in \textrm{R}^d$$
 $$\lbrace q_i \rbrace ^t_{i=1} \mapsto \lbrace a_i \rbrace ^t_{i=1} \mapsto A \in \textrm{R}^{t \times t}$$
+$$H = VA \in \textrm{R}^{d\times t}$$
+
 
